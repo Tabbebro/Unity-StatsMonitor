@@ -1,6 +1,7 @@
 # Stats Monitor
 
 Editor-only Unity package that tracks how you work in a project and shows it in a dedicated window. Statistics are kept both for the lifetime of the project and for the current editor session.
+<br>This is a fork of "https://github.com/Humsteri/UnityProjectStatsPackage" and most of the ground work was made by him. I just modified it to fit my needs.
 
 ## Features
 
@@ -30,18 +31,6 @@ Editor-only Unity package that tracks how you work in a project and shows it in 
 
 ```
 https://github.com/Tabbebro/UnityProjectStatsPackage-Tabbe-ver.git
-```
-
-### manifest.json
-
-Add the dependency to `Packages/manifest.json`:
-
-```diff
-  {
-    "dependencies": {
-		"com.tabbebro.statsmonitor": "https://github.com/Tabbebro/UnityProjectStatsPackage-Tabbe-ver.git#1.0.0"
-    }
-  }
 ```
 
 ## Usage
