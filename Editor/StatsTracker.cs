@@ -6,10 +6,10 @@ using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+namespace StatMonitor {
 // Collects Editor Statistics And Feeds Both The Total (LoadManager) & Session (DailyLoadManager) Data
 [InitializeOnLoad]
-static class StatsTracker
-{
+static class StatsTracker {
     const string ReloadStartKey = "StatsMonitor.ReloadStart";
     const string PlayModeStartKey = "StatsMonitor.PlayModeStart";
 
@@ -158,4 +158,6 @@ static class StatsTracker
     }
 
     #endregion
+}
+
 }

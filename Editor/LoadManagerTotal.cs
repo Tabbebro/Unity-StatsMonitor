@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
+namespace StatMonitor {
 // Shared Fields, Saving/Loading Helpers And Increment Logic For LoadManager And DailyLoadManager Below
 public class LoadManagerBase {
     public Action<int> CompiledAction;
@@ -318,3 +319,5 @@ public class SpendDataList {
 }
 
 #endregion
+
+}

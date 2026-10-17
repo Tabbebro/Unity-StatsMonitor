@@ -3,6 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
+namespace StatMonitor {
 public abstract class StatisticsTab : VisualElement {
     // Action Stats
     protected int _projectOpenedAmount = 0; // How Many Times Project Has Been Opened In Total
@@ -216,4 +217,6 @@ public abstract class StatisticsTab : VisualElement {
     }
 
     #endregion
+}
+
 }
