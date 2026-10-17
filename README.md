@@ -30,7 +30,7 @@ Editor-only Unity package that tracks how you work in a project and shows it in 
 3. Paste the repository URL and click `Add`:
 
 ```
-https://github.com/Tabbebro/UnityProjectStatsPackage-Tabbe-ver.git
+https://github.com/Tabbebro/Unity-StatsMonitor.git
 ```
 
 ## Usage
